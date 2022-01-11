@@ -1,9 +1,10 @@
 .background{
   display: flex;
   justify-content: center;
+  align-items: center;
   width: 100%;
   flex-direction: column;
-
+  background-color: $sean-dark-grey;
 }
 
 .home-banner {
@@ -23,10 +24,20 @@
 h1 {
   color: white;
   text-shadow: 0 0 10px black;
+  font-family: 'air americana';
+  font-size: 60px;
+  letter-spacing: 8px;
 }
 
 h3 {
   color: white;
   text-shadow: 0 0 10px black;
+  font-family: 'air americana';
 
+
+}
+
+.body {
+  width: 75%;
+  justify-content: center;
 }
