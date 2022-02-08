@@ -4,7 +4,11 @@
 }
 
 .about-image {
+  margin: 16px;
   height: 200px;
+  border-radius: 50%;
+  border: 1px solid white;
+  box-shadow: 5px 10px 20px rgb(0, 0, 0);
 }
 
 .about-text {
