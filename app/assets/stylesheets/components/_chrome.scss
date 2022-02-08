@@ -1,0 +1,16 @@
+.vectro {
+  position: relative;
+  -webkit-text-fill-color: transparent;
+  -webkit-text-stroke: 0.1px #f1f1f1;
+  // font-family: 'Righteous', cursive;
+  // font-size: 140px;
+  margin: 150px 0px 50px 0;
+}
+
+
+.vectro-body {
+  -webkit-background-clip: text;
+  background-image: -webkit-linear-gradient(#C3BFB4 0%, #FDFCFA 50%, #E8E7E5 51%, #757172 52%, #E8E9DB 100%);
+  -webkit-filter: drop-shadow(2px 2px 15px #000000);
+  padding-top: 22px;
+}
