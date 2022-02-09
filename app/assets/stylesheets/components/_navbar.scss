@@ -7,6 +7,9 @@
   // text-align: center;
   padding: 0;
   background-color: $sean-black;
+  position: sticky;
+  top: 0px;
+  z-index: 10;
 }
 
 .tabs {
