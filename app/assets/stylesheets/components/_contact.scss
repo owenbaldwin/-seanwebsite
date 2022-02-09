@@ -14,7 +14,13 @@
   box-shadow: inset 0px 0px 10px $sean-blue, inset -10px -10px 100px $sean-blue,
   10px 10px 100px black, inset -10px -10px 100px black;
   border-radius: 12px;
+  transition: 0.3s;
 }
+
+.contact:hover {
+  transform: scale(1.03);
+}
+
 
 .contact-content {
   width: 30%;

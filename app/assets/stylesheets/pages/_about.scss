@@ -14,6 +14,7 @@
   10px 10px 100px black, inset -10px -10px 100px black;
   border-radius: 12px;
   margin-top: 32px;
+  transition: 0.3s;
   p {
     font-family: 'Roboto', sans-serif;
     color: $whitish;
@@ -24,6 +25,11 @@
   }
 
 }
+
+.about:hover {
+  transform: scale(1.03);
+}
+
 
 
 .about-text {

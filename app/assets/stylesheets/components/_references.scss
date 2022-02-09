@@ -14,7 +14,13 @@
   10px 10px 100px black, inset -10px -10px 100px black;
   border-radius: 12px;
   margin-top: 32px;
+  transition: 0.3s;
 }
+
+.reference-banner:hover {
+  transform: scale(1.03);
+}
+
 
 .references {
   display: flex;
