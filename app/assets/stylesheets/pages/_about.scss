@@ -1,18 +1,37 @@
 .about {
+  background-image:
+   linear-gradient(to right, rgb(0, 0, 0) 30%,rgba(0, 0, 0, 0.137) 60%),
+    url("sean-3.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 680px;
+  width: 100%;
   display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  box-shadow: inset 0px 0px 10px $sean-blue, inset -10px -10px 100px $sean-blue,
+  10px 10px 100px black, inset -10px -10px 100px black;
+  border-radius: 12px;
+  margin-top: 32px;
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: $whitish;
+    font-size: 20px;
+    font-weight: 100;
+    text-shadow: 4px 4px 20px black;
+    line-height: 45px;
+  }
 
 }
 
-.about-image {
-  margin: 32px;
-  height: 200px;
-  border-radius: 50%;
-  border: 1px solid white;
-  box-shadow: 5px 10px 20px rgb(0, 0, 0);
-}
 
 .about-text {
-  margin: 32px;
-  font-family: 'Roboto', sans-serif;
-  color: white;
+  width: 45%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 8px;
+  padding: 16px;
 }
