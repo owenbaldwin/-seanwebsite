@@ -31,4 +31,15 @@ li {
   // font-family: 'hamburger heaven';
   font-family: 'air americana';
 
+  a {
+    text-decoration: none;
+    color: $whitish;
+    transition: 0.3s;
+  }
+  a:hover {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 20px $sean-light-blue;
+
+  }
 }
