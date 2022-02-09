@@ -1,15 +1,45 @@
 .contact {
   margin-top: 24px;
+  background-image:
+   linear-gradient(to right, rgb(0, 0, 0) 30%,rgba(0, 0, 0, 0.308) 80%),
+    url("sean-1.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 680px;
+  width: 100%;
   display: flex;
+  justify-content: center;
+  text-align: flex-start;
+  flex-direction: column;
+  box-shadow: inset 0px 0px 10px $sean-blue, inset -10px -10px 100px $sean-blue,
+  10px 10px 100px black, inset -10px -10px 100px black;
+  border-radius: 12px;
+}
+
+.contact-content {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .qr-code {
   height: 200px;
-  margin: 32px;
 }
 
 .contact-info {
+  margin-top: 24px;
   color: white;
-  margin: 32px;
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  p {
+    font-family: 'Roboto', sans-serif;
+    color: $whitish;
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1px;
+  }
 }
