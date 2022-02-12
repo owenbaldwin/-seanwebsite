@@ -1,20 +1,42 @@
 
-
 .references {
   display: flex;
   justify-content: center;
+  flex-direction: column;
   margin-top: 32px;
-  .ref-text {
-    width: 75%;
-    display: flex;
+
+
+
+}
+
+.ref-carousel {
+  height: auto;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 32px;
+}
+
+.ref-card {
+  width: 300px;
+  border: 1px solid $sean-light-grey;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  p {
     text-align: justify;
-    p {
-      font-family: 'air americana';
-      color: $whitish;
-      font-size: 20px;
-      font-weight: 300;
-      letter-spacing: 4px;
-      text-shadow: 2px 2px 10px black;
-    }
+    font-family: 'Montserrat', sans-serif;
+    color: $whitish;
+    font-size: 18px;
+    font-weight: 100;
+    font-style: italic;
+    margin: 8px;
+  }
+  h4 {
+    font-family: 'Montserrat', sans-serif;
+    color: $whitish;
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+
   }
 }
