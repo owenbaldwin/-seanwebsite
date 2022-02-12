@@ -8,21 +8,28 @@ html {
   align-items: center;
   width: 100%;
   flex-direction: column;
-  background-color: $sean-dark-grey;
+  background: linear-gradient(60deg, $gradient1, $gradient2);
 }
 
 .home-banner {
-  background-image:
-   linear-gradient(to bottom, rgba(0, 0, 0, 0.1),rgba(7,56,90,1)),
-    url("homebgsean.jpg");
-  background-size: cover;
-  background-position: center;
-  height: 680px;
+  height: 500px;
   width: 100%;
   display: flex;
   justify-content: center;
   text-align: center;
+  align-items: center;
   flex-direction: column;
+  h5 {
+    padding-top: 52px;
+    letter-spacing: 2px;
+  }
+}
+
+.logo-image {
+  height: 260px;
+  width: 461.5px;
+  transform: scale(1.3);
+  margin-top: 40px;
 }
 
 h1 {
@@ -35,6 +42,11 @@ h3 {
   font-family: 'air americana';
   font-size: 50px;
   letter-spacing: 16px;
+}
+
+h5 {
+  font-family: 'Montserrat', sans-serif;
+  color: $whitish;
 }
 
 .body {
