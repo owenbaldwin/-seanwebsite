@@ -1,43 +1,52 @@
 .about {
-  background-image:
-   linear-gradient(to right, rgb(0, 0, 0) 30%,rgba(0, 0, 0, 0.137) 60%),
-    url("sean-3.jpg");
-  background-size: cover;
-  background-position: center;
   height: 680px;
   width: 100%;
   display: flex;
   justify-content: center;
-  text-align: center;
+  text-align: justify;
   flex-direction: column;
-  box-shadow: inset 0px 0px 10px $sean-blue, inset -10px -10px 100px $sean-blue,
-  10px 10px 100px black, inset -10px -10px 100px black;
-  border-radius: 12px;
-  margin-top: 32px;
-  transition: 0.3s;
   p {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     color: $whitish;
     font-size: 20px;
     font-weight: 100;
     text-shadow: 4px 4px 20px black;
-    line-height: 45px;
+    line-height: 35px;
+  }
+  .highlight {
+    color: $sean-new-blue;
+    font-weight: 300;
   }
 
 }
 
-.about:hover {
-  transform: scale(1.03);
+
+.title-separator {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  h3 {
+    margin: 0 16px;
+  }
 }
 
-
+.blue-line {
+  height: 1px;
+  width: 100%;
+  border: 1px solid $sean-new-blue;
+}
 
 .about-text {
-  width: 45%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-direction: column;
+  // flex-direction: column;
   margin: 8px;
   padding: 16px;
+}
+
+.about-image {
+  height: 400px;
+  margin-right: 32px;
 }
