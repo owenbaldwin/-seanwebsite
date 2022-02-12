@@ -1,0 +1,38 @@
+.rates {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 32px;
+}
+
+.rates-body {
+  margin-top: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.rates-text {
+  display: flex;
+  flex-direction: column;
+  line-height: 50px;
+  p {
+    font-family: 'Montserrat', sans-serif;
+    color: $whitish;
+    font-size: 24px;
+    font-weight: 300;
+  }
+
+}
+
+.rates-text-inner {
+  display: flex;
+  .rates-text-columns {
+    padding-right: 16px;
+  }
+}
+
+.rates-image {
+  width: 50%;
+}
