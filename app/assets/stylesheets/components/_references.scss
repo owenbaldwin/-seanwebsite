@@ -4,9 +4,6 @@
   justify-content: center;
   flex-direction: column;
   margin-top: 32px;
-
-
-
 }
 
 .ref-carousel {
@@ -22,6 +19,7 @@
   border-radius: 8px;
   display: flex;
   flex-direction: column;
+  box-shadow: 12px 12px 12px black;
   p {
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
