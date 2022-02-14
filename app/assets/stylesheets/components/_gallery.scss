@@ -1,3 +1,31 @@
 .gallery {
-  height: 400px;
+  height: 750px;
+}
+
+.carousel {
+  margin-top: 32px;
+  margin-bottom: 32px;
+
+}
+
+.carousel-caption {
+  h5 {
+    text-shadow:
+      0px 0px 1px $sean-blue,
+      0px 0px 3px $sean-light-blue,
+      0px 0px 10px $sean-new-blue;
+    font-family: 'Montserrat', sans-serif;
+    color: $whitish;
+    font-weight: 400;
+    font-size: 35px;
+  }
+  p {
+    text-shadow:
+      0px 0px 1px $sean-blue,
+      0px 0px 3px $sean-light-blue,
+      0px 0px 10px $sean-new-blue;
+    font-family: 'Montserrat', sans-serif;
+    color: $whitish;
+    font-size: 25px;
+  }
 }
