@@ -1,11 +1,17 @@
 .gallery {
-  height: 750px;
+  height: auto;
 }
 
 .carousel {
   margin-top: 32px;
   margin-bottom: 32px;
+  display: flex;
+  justify-content: center;
+}
 
+.carousel-inner {
+  width:840px;
+  box-shadow: 12px 12px 12px black;
 }
 
 .carousel-caption {
@@ -28,4 +34,8 @@
     color: $whitish;
     font-size: 25px;
   }
+}
+
+.carousel-indicators {
+  margin-bottom: 0;
 }
