@@ -1,5 +1,5 @@
 .about {
-  height: 680px;
+  min-height: 680px;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -12,11 +12,16 @@
     font-weight: 100;
     text-shadow: 4px 4px 20px black;
     line-height: 35px;
+    @media screen and (max-width: $phone) {
+      font-size: 15px;
+      line-height: 20px;
+    }
   }
   .highlight {
     color: $sean-new-blue;
     font-weight: 300;
   }
+
 
 }
 
@@ -46,6 +51,11 @@
   align-items: center;
   margin: 8px;
   padding: 16px;
+  @media screen and (max-width: $phone) {
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .about-image {
@@ -54,4 +64,8 @@
   border: 3px solid $sean-dark-grey;
   border-radius: 8px;
   box-shadow: 4px 4px 12px black;
+  @media screen and (max-width: $phone) {
+    margin: 10px 0;
+    max-height: 300px;
+  }
 }

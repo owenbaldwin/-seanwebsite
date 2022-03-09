@@ -42,4 +42,8 @@ li {
     text-shadow: 0 0 20px $sean-light-blue;
 
   }
+  @media screen and (max-width: $phone) {
+    font-size: 10px;
+
+  }
 }
