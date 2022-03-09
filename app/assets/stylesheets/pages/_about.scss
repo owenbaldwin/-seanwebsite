@@ -35,6 +35,9 @@
     text-shadow: 12px 12px 12px black;
 
   }
+  @media screen and (max-width: $tablet) {
+    margin: 16px 0;
+  }
 }
 
 .blue-line {
@@ -51,7 +54,7 @@
   align-items: center;
   margin: 8px;
   padding: 16px;
-  @media screen and (max-width: $phone) {
+  @media screen and (max-width: $tablet) {
     flex-direction: column;
     margin: 0;
     padding: 0;
@@ -64,7 +67,7 @@
   border: 3px solid $sean-dark-grey;
   border-radius: 8px;
   box-shadow: 4px 4px 12px black;
-  @media screen and (max-width: $phone) {
+  @media screen and (max-width: $tablet) {
     margin: 10px 0;
     max-height: 300px;
   }
