@@ -10,7 +10,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  @media screen and (max-width: $phone) {
+  @media screen and (max-width: $tablet) {
     flex-direction: column;
   }
 }
@@ -43,7 +43,7 @@
 
 .rates-image {
   width: 50%;
-  @media screen and (max-width: $phone) {
+  @media screen and (max-width: $tablet) {
     width: 90%;
   }
 }
