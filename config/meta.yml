@@ -2,4 +2,4 @@ meta_product_name: "Copson Studio Wiring"
 meta_title: "Copson Studio Wiring"
 meta_description: "Copson Studio Wiring offers music production studio wiring services to professional and private clients."
 meta_image: "sean-og.png" # should exist in `app/assets/images/`
-# twitter_account: "@product_twitter_account"   # required for Twitter Cards
+twitter_account: "@product_twitter_account"   # required for Twitter Cards
