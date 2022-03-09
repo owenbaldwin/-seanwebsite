@@ -10,6 +10,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  @media screen and (max-width: $phone) {
+    flex-direction: column;
+  }
 }
 
 
@@ -22,6 +25,11 @@
     color: $whitish;
     font-size: 24px;
     font-weight: 300;
+    @media screen and (max-width: $phone) {
+      font-size: 15px;
+      line-height: 20px;
+
+    }
   }
 
 }
@@ -35,4 +43,7 @@
 
 .rates-image {
   width: 50%;
+  @media screen and (max-width: $phone) {
+    width: 90%;
+  }
 }
