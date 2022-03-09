@@ -1,8 +1,8 @@
 .navbar {
-  height: 60px;
+  // height: 60px;
   width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-end;
   padding: 0;
   background-color: $sean-new-blue;
   position: sticky;
@@ -12,25 +12,31 @@
 
 .tabs {
   // list-style: none;
-  display: flex;
-  align-items: center;
-  text-align: center;
+  // display: flex;
+  // align-items: center;
+  // text-align: center;
   margin: 0;
-  height: 100%;
+  // height: 100%;
+  max-height: 0;
+  transition: max-height .2s ease-in-out;
   width: 100%;
   justify-content: space-evenly;
   padding: 0px;
 }
 
-li {
-  display: inline;
+ul {
+  overflow: hidden;
+}
 
-  display: flex;
-  text-align: center;
+li {
+  // display: inline;
+  // display: flex;
+  // text-align: center;
+  display: block;
   color: white;
   font-size: 20px;
-  // font-family: 'hamburger heaven';
   font-family: 'Montserrat', sans-serif;
+  margin: 5px;
   a {
     text-decoration: none;
     color: $whitish;
@@ -42,8 +48,89 @@ li {
     text-shadow: 0 0 20px $sean-light-blue;
 
   }
-  @media screen and (max-width: $phone) {
-    font-size: 10px;
+}
+
+.menu-icon {
+  // border: 1px solid red;
+  padding: 28px 20px;
+  position: relative;
+  float: right;
+  cursor: pointer;
+  margin: 0;
+}
+
+.nav-icon {
+  background: black;
+  display: block;
+  height: 2px;
+  width: 18px;
+  position: relative;
+  transition: background .2s ease-out;
+}
+
+.nav-icon::before {
+  background: black;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  top: 5px;
+}
+
+.nav-icon::after {
+  background: black;
+  content: "";
+  display: block;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  top: -5px;
+}
+
+.menu-btn {
+  display: none;
+}
+
+.menu-btn:checked ~ .tabs {
+  max-height: 340px;
+}
+
+.menu-btn:checked ~ .menu-icon .nav-icon {
+  background: transparent;
+}
+
+.menu-btn:checked ~ .menu-icon .nav-icon::before {
+  transform: rotate(-45deg);
+  top: 0;
+}
+
+.menu-btn:checked ~ .menu-icon .nav-icon::after {
+  transform: rotate(45deg);
+  top: 0;
+}
+
+@media screen and (min-width: $laptop) {
+  .li {
+    display: inline;
+    display: flex;
+    text-align: center;
+  }
+  .tabs {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-height: none;
+  }
+  .menu-icon {
+    display: none;
+  }
+  .navbar {
+    height: 60px;
+    justify-content: center;
 
   }
 }
