@@ -268,25 +268,33 @@
   </div>
 
   <div class="footer">
-    <div class="footer-sm-list">
-      <ul class="socialm">
-        <li>
-          <a href="https://www.instagram.com/copson_studio_wiring/" target="_blank">
-            <i class="fab fa-instagram"></i></a>
-        </li>
-        <li>
-          <a href="https://www.facebook.com/copsonstudiowiring" target="_blank">
-            <i class="fab fa-facebook-square"></i></a>
-        </li>
-        <li>
-          <a href="https://www.linkedin.com/in/sean-c-a49906208/" target="_blank">
-            <i class="fab fa-linkedin"></i></a>
-        </li>
-      </ul>
-    </div>
     <div class="footer-content">
-      <%= image_tag "Logo-CSW-grey.png", class: "footer-image" %>
-      <p>© 2022 Copson Studio Wiring</p>
+      <div class="footer-left">
+        <%= image_tag "Logo-CSW-grey.png", class: "footer-image" %>
+        <p>© 2022 Copson Studio Wiring</p>
+      </div>
+      <div class="footer-right">
+        <div class="footer-sm-list">
+          <ul class="socialm">
+            <li>
+              <a href="https://www.instagram.com/copson_studio_wiring/" target="_blank">
+                <i class="fab fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="https://www.facebook.com/copsonstudiowiring" target="_blank">
+                <i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/sean-c-a49906208/" target="_blank">
+                <i class="fab fa-linkedin"></i></a>
+            </li>
+          </ul>
+        </div>
+        <div class="tandc">
+          <%= link_to "Privacy", "https://www.termsfeed.com/live/352389ce-1da2-41d0-819a-5e4c9e78cd2e", :target => "_blank" %>
+          <%= link_to "Terms and Conditions", "https://www.termsfeed.com/live/faa62d27-5f29-4b65-9c47-1fc1fba685b9", :target => "_blank" %>
+        </div>
+      </div>
     </div>
   </div>
 </div>

@@ -41,6 +41,16 @@
     text-align: center;
 
   }
+  a {
+    color: $sean-new-blue;
+    text-decoration: none;
+    transition: .3s;
+  }
+  a:hover {
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 20px $sean-light-blue;
+  }
   @media screen and (max-width: $tablet) {
     margin: 10px 0;
   }
