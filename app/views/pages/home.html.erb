@@ -76,7 +76,6 @@
           <div class="carousel-inner">
             <div class="carousel-item active">
               <%= cl_image_tag("4F156446-1AC0-4830-A713-4AF4F5D5A269_rvdjgv", class: "d-block w-100", alt: "First slide") %>
-              <%# <%= image_tag "ICMP--2021---DSC_7640.jpeg", class: "d-block w-100", alt: "First slide" %> %>
               <div class="carousel-caption d-none d-md-block">
                 <h5>The Qube</h5>
                 <p>High end commercial recoding studio</p>
@@ -84,7 +83,6 @@
             </div>
             <div class="carousel-item">
               <%= cl_image_tag("Screenshot_2022-03-13_at_14.26.01_erekm9", class: "d-block w-100", alt: "Second slide") %>
-              <%# <%= image_tag "2021.09.15 Queen_s Park Studios 34.jpg", class: "d-block w-100", alt: "Second slide" %> %>
               <div class="carousel-caption d-none d-md-block">
                 <h5>NE London</h5>
                 <p>Production Studio with tie lines between two control rooms</p>
@@ -92,7 +90,6 @@
             </div>
             <div class="carousel-item">
               <%= cl_image_tag("Screenshot_2022-03-13_at_14.25.43_sqvrh4", class: "d-block w-100", alt: "Third slide") %>
-              <%# <%= image_tag "ICMP_Studio_edit_311016_NJR_15_fullres.jpeg", class: "d-block w-100", alt: "Third slide" %> %>
               <div class="carousel-caption d-none d-md-block">
                 <h5>Fish Tank</h5>
                 <p>Audio system with tie lines set up to back of room with ethernet.</p>
@@ -178,51 +175,63 @@
         <h3>References</h3>
         <div class="blue-line"></div>
       </div>
-      <div class="ref-carousel">
 
-        <div class="ref-card">
-          <div class="ref-text">
-            <p>Sean came to patch in the tie lines
-            for our new studio. He was very
-            quick and efficient, and did a
-            clean job fitting them in. Sean is
-            personable and professional, and
-            we'd be happy to recommend
-            him!</p>
-          </div>
-          <h4>_____</h4>
-          <div class="ref-name">
-            <h4> H. Warwick - GM, Parallels</h4>
-          </div>
-        </div>
+      <div class="container">
+        <div id="carouselContent" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active text-center p-4 border border-light rounded">
+              <div class="ref-text">
+                <p>Sean came to patch in the tie lines
+                  for our new studio. He was very
+                  quick and efficient, and did a
+                  clean job fitting them in. Sean is
+                  personable and professional, and
+                  we'd be happy to recommend
+                  him!
+                </p>
+                <h4>_____</h4>
+                <h4> H. Warwick - GM, Parallels</h4>
+              </div>
+            </div>
 
-        <div class="ref-card">
-          <div class="ref-text">
-            <p>Our Go to Guy!
-              Sean is our go to guy for SW6 studios in all of our studio locations from London to Ghana.
-              His Audio solutions just work! and his knowledge, advice and hands on approach have been an integral part of building our Studio's all over the world.
-            </p>
-          </div>
-          <h4>_____</h4>
-          <div class="ref-name">
-            <h4> Ray Michael - <%= link_to "SW6 Studios", "https://www.sw6studios.com/", :target => "_blank" %> founder and Director</h4>
-          </div>
-        </div>
+            <div class="carousel-item text-center p-4 border border-light rounded">
+              <div class="ref-text">
 
-        <div class="ref-card">
-          <div class="ref-text">
-            <p>Sean came to patch in the tie lines
-            for our new studio. He was very
-            quick and efficient, and did a
-            clean job fitting them in. Sean is
-            personable and professional, and
-            we'd be happy to recommend
-            him!</p>
+                <p>Our Go to Guy!
+                  Sean is our go to guy for SW6 studios in all of our studio locations from London to Ghana.
+                  His Audio solutions just work! and his knowledge, advice and hands on approach have been an integral part of building our Studio's all over the world.
+                </p>
+                <h4>_____</h4>
+                <h4> Ray Michael - <%= link_to "SW6 Studios", "https://www.sw6studios.com/", :target => "_blank" %> founder and Director</h4>
+              </div>
+            </div>
+
+            <div class="carousel-item text-center p-4 border border-light rounded">
+              <div class="ref-text">
+                <p>
+                  One of the only studio installation engineers that seems to know a lot about everything wiring consoles midi software protocols interfaces keyboards monitoring the Mac et cetera
+                  This talent is extremely hard to find !
+                  <br>
+                  If you hire this extremely efficient engineer you will not fail to be extremely pleased and satisfied.
+                  His work is very neat and he will not finish until everything is perfect.
+                  He also has a great memory and will not forget things.
+                  <br>
+                  I have adopted him as my brother!
+                </p>
+                <h4>_____</h4>
+                <h4> Annonymous private studio owner</h4>
+              </div>
+
+            </div>
           </div>
-          <h4>_____</h4>
-          <div class="ref-name">
-            <h4> H. Warwick - GM, Parallels</h4>
-          </div>
+          <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselContent" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+          </a>
         </div>
       </div>
     </div>
