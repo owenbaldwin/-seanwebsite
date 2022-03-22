@@ -17,13 +17,15 @@
   }
 }
 
-.ref-card {
-  width: 300px;
-  border: 1px solid $sean-light-grey;
-  border-radius: 8px;
+.ref-text {
+  // width: 300px;
+  // border: 1px solid $sean-light-grey;
+  // border-radius: 8px;
   display: flex;
   flex-direction: column;
-  box-shadow: 12px 12px 12px black;
+  // box-shadow: 12px 12px 12px black;
+  min-height: 300px;
+  justify-content: center;
   p {
     text-align: justify;
     font-family: 'Montserrat', sans-serif;
