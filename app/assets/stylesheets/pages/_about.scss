@@ -5,6 +5,7 @@
   justify-content: center;
   text-align: justify;
   flex-direction: column;
+  align-items: center;
   p {
     font-family: 'Montserrat', sans-serif;
     color: $whitish;
@@ -30,6 +31,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
+  width: 100%;
   h3 {
     margin: 0 16px;
     text-shadow: 12px 12px 12px black;
@@ -47,6 +49,12 @@
   box-shadow: 12px 12px 12px black;
 }
 
+
+.about-inner {
+  display: flex;
+  align-items: center;
+}
+
 .about-text {
   width: 100%;
   display: flex;
@@ -61,9 +69,15 @@
   }
 }
 
+.top-zero {
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
 .about-image {
   height: 400px;
-  margin-right: 32px;
+  margin-left: 24px;
+  // margin-top: 31px;
   border: 3px solid $sean-dark-grey;
   border-radius: 8px;
   box-shadow: 4px 4px 12px black;
@@ -71,4 +85,17 @@
     margin: 10px 0;
     max-height: 300px;
   }
+}
+
+.about-btn {
+  color: $sean-new-blue;
+  text-decoration: none;
+  transition: .3s;
+  font-weight: bold;
+}
+
+.about-btn:hover {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 20px $sean-light-blue;
 }

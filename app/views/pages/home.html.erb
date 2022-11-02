@@ -19,7 +19,8 @@
   <div id="to-home"><a href="to-home"></a></div>
   <div class="home-banner">
     <%= image_tag "Logo-CSW.png", class: "logo-image" %>
-    <h5>CSW offers music production studio wiring services to professional and private clients.</h5>
+    <%# <h5>CSW offers music production studio wiring services to professional and private clients.</h5> %>
+    <h5>Consulting, wiring and setup services for commercial and private recording studios.</h5>
   </div>
 
 
@@ -31,24 +32,28 @@
         <h3>About</h3>
         <div class="blue-line"></div>
       </div>
-      <div class="about-text">
-        <%# <%= image_tag "sean-about.png", class: "about-image" %>
-        <p>London-based live sound and recording studio specialist with
-          over five years professional experience in an educational
-          facility working as a technician, audio engineer and IT deputy.
-          I started <span class="highlight"> Copson Studio Wiring </span> (CSW) in 2020 as a side job
-          when I saw an opportunity during the pandemic where many
-          people wanted to continue producing music but they had to
-          do so from home. They had the musical knowledge to
-          produce but some were struggling with setting up a studio to
-          work in.
-        </p>
+
+      <div class="about-inner">
+        <%= image_tag "sean-about.jpg", class: "about-image" %>
+        <div class="about-text">
+          <p>
+            My name is Sean. I’m a London-based AV/IT specialist for over 5 years experience working as an IT supervisor, technician, audio engineer, maintenance engineer, teacher and builder at the ICMP College in London.
+            <br>
+            <br>
+            Copson Studio Wiring (CSW) was founded in 2020 following an ever growing market need for home studios because of the covid-19 pandemic. Rapidly growing, I’ve since taken on ever growing projects.
+            <br>
+            <br>
+            Friendly, hard working, punctual and organised, I’ve been involved in the construction of close to fifty studios: From small home setups to full-size large format console rooms, home cinemas, and even Dolby Atmos suites.
+
+          </p>
+        </div>
       </div>
-      <div class="about-text">
-        <p>I've been involved in the construction of close to forty studios since 2017. Everything from
-          small home studios to full-size large format console rooms, home cinemas, and even Dolby
-          Atmos, suites, I look forward to bringing whatever your dream studio vision is to life. I've
-          teamed up with SXPro and Flavio Acoustics to bring you the best setup to suit your workflow.
+      <div class="about-text top-zero">
+        <p>
+          <a href="#to-contact" class="about-btn">Get in touch</a> with me now!
+          <br>
+          <br>
+          I look forward to working with you to bring your dream studio vision to life. I work closely with companies like SX Pro, VanDamme Cables, Studiospares and Flavio Acoustics to bring you the best setup to suit your workflow and budget.
         </p>
       </div>
     </div>
@@ -221,8 +226,20 @@
                 <h4>_____</h4>
                 <h4> Annonymous private studio owner</h4>
               </div>
-
             </div>
+
+            <div class="carousel-item text-center p-4 border border-light rounded">
+              <div class="ref-text">
+                <p>
+                  Having just moved into a new studio I found that the tie-lines had been cut by the previous occupant.
+                  Sean did a fantastic job repairing them, wiring all four live rooms into a single patch panel and re-using an existing stage box from my previous studio.
+                  He was extremely fast, efficient and a pleasure to have around.  Highly recommended!
+                </p>
+                <h4>_____</h4>
+                <h4> David O'Brien</h4>
+              </div>
+            </div>
+
           </div>
           <a class="carousel-control-prev" href="#carouselContent" role="button" data-slide="prev">
               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -252,12 +269,14 @@
               <p>Travel (by car outside M25 zone)</p>
             </div>
             <div class="rates-text-columns">
-              <p>£45/hr</p>
-              <p>£400</p>
+              <p>£60/hr</p>
+              <p>£450</p>
               <p>£0.45/mile</p>
             </div>
           </div>
-          <h5>T&C's</h5>
+
+          <h5 class="tandc"><%= link_to "T&C's", "https://www.termsfeed.com/live/faa62d27-5f29-4b65-9c47-1fc1fba685b9", :target => "_blank" %></h5>
+
         </div>
         <%= image_tag "rates-img.png", class: "rates-image" %>
       </div>
