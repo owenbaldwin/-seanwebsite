@@ -99,3 +99,18 @@
   color: white;
   text-shadow: 0 0 20px $sean-light-blue;
 }
+
+
+.about-stamps {
+  display: flex;
+  margin-bottom: 64px;
+  width: 100%;
+  justify-content: space-between;
+  img {
+    height: 80px;
+    margin: 16px;
+  }
+  .square {
+    width: auto;
+  }
+}
