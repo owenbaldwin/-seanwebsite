@@ -19,7 +19,7 @@
   "version": "0.1.0",
   "devDependencies": {
     "@babel/preset-env": "7.16.5",
-    "webpack-cli": "^5.0.0",
+
     "webpack-dev-server": "^4.6.0"
   }
 }
