@@ -20,5 +20,8 @@
   "version": "0.1.0",
   "scripts": {
     "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack-cli": "^5.0.1"
   }
 }
