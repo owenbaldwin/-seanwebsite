@@ -103,8 +103,6 @@ GEM
     jbuilder (2.11.5)
       actionview (>= 5.0.0)
       activesupport (>= 5.0.0)
-    jsbundling-rails (1.0.3)
-      railties (>= 6.0.0)
     listen (3.7.1)
       rb-fsevent (~> 0.10, >= 0.10.3)
       rb-inotify (~> 0.9, >= 0.9.10)
@@ -274,7 +272,6 @@ DEPENDENCIES
   dotenv-rails
   font-awesome-sass
   jbuilder (~> 2.7)
-  jsbundling-rails
   listen (~> 3.2)
   pg (>= 0.18, < 2.0)
   pry-byebug
