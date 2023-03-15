@@ -105,7 +105,7 @@
   display: flex;
   margin-bottom: 64px;
   width: 100%;
-  justify-content: space-between;
+  justify-content: space-around;
   img {
     height: 80px;
     margin: 16px;
@@ -113,4 +113,25 @@
   .square {
     width: auto;
   }
+}
+
+
+@media screen and (max-width: $tablet) {
+.about-stamps {
+  flex-direction: column;
+  align-items: center;
+  .square {
+    width: 80px;
+  }
+  .squareish {
+    width: 120px;
+  }
+  .large-stamp {
+    height: 50px;
+  }
+}
+.about-inner {
+  flex-direction: column;
+}
+
 }
